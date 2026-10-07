@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="William Wylie - personal web space, projects, and experiments.">
+    <title>WILLIAM.WYLIE // HOME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="crt-noise" aria-hidden="true"></div>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#home" data-view="home" aria-label="William Wylie home">
+          <span class="wordmark-bracket">[</span>WilliamWylie<span class="wordmark-dot">.</span>com<span class="wordmark-bracket">]</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-link is-active" href="#home" data-view="home"><span>01</span> ABOUT</a>
+          <a class="nav-link" href="#projects" data-view="projects"><span>02</span> PROJECTS</a>
+          <a class="nav-link" href="#contact" data-view="contact"><span>03</span> CONTACT</a>
+          <a class="nav-link external-link" href="https://github.com/S0lardev" target="_blank" rel="noreferrer"><span>GH</span> GITHUB ↗</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="view view-home is-visible" id="home" aria-labelledby="intro-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> PERSONAL WEB SPACE // ONLINE</p>
+            <h1 id="intro-title">Hello,<br><em>I'm William.</em></h1>
+            <p class="intro">A curious human making things for the screen, the command line, and whatever lives in between.</p>
+            <div class="hero-actions">
+              <a class="pixel-button" href="#projects" data-view="projects">ENTER PROJECTS <span>→</span></a>
+              <p class="tiny-note">best viewed with curiosity<br>and a little bit of noise</p>
+            </div>
+          </div>
+
+          <div class="portrait-frame">
+            <div class="frame-label frame-label-top">IMG_0001.JPG</div>
+            <div class="portrait-wrap">
+              <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=85" alt="Mountain landscape under a star-filled night sky">
+              <div class="portrait-scanline" aria-hidden="true"></div>
+              <div class="portrait-caption">THE VIEW FROM HERE<br><span>40.7128° N, 74.0060° W</span></div>
+            </div>
+            <div class="frame-label frame-label-bottom">A LITTLE OUT THERE <span>✳</span></div>
+          </div>
+        </section>
+
+        <section class="view view-contact" id="contact" aria-labelledby="contact-title" hidden>
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="status-dot"></span> OPEN CHANNEL // HUMAN REPLIES</p>
+            <h2 id="contact-title">Send a<br><em>signal.</em></h2>
+            <p class="intro">For thoughtful notes, interesting work, or a good reason to leave the house.</p>
+          </div>
+          <div class="contact-console">
+            <div class="console-top"><span>MESSAGE_TERMINAL</span><span>● ● ●</span></div>
+            <p class="console-prompt">&gt; establish_connection()</p>
+            <p class="console-response">connection accepted.<br>address is revealed client-side.</p>
+            <p class="contact-address" id="contact-address">loading...</p>
+            <div class="contact-actions">
+              <button class="pixel-button contact-button" id="copy-email" type="button">COPY ADDRESS <span>↗</span></button>
+              <span class="copy-status" id="copy-status" aria-live="polite"></span>
+            </div>
+          </div>
+          <a class="back-link" href="#home" data-view="home">← BACK TO BASE</a>
+        </section>
+
+        <section class="view view-projects" id="projects" aria-labelledby="projects-title" hidden>
+          <div class="projects-heading">
+            <p class="eyebrow"><span class="status-dot"></span> SELECTED WORK // 2026</p>
+            <h2 id="projects-title">Things I've<br><em>been building.</em></h2>
+            <p class="intro">Small experiments, useful tools, and digital oddities. More on the way.</p>
+          </div>
+          <div class="project-list">
+            <a class="project-row" href="https://github.com/S0lardev" target="_blank" rel="noreferrer">
+              <span class="project-number">01</span>
+              <span class="project-name">GITHUB / CODE ARCHIVE</span>
+              <span class="project-type">REPOSITORIES</span>
+              <span class="project-arrow">↗</span>
+            </a>
+            <a class="project-row" href="#home" data-view="home">
+              <span class="project-number">02</span>
+              <span class="project-name">THIS LITTLE WEBSITE</span>
+              <span class="project-type">PERSONAL / WEB</span>
+              <span class="project-arrow">↗</span>
+            </a>
+            <div class="project-row project-row-muted">
+              <span class="project-number">03</span>
+              <span class="project-name">NEXT TRANSMISSION</span>
+              <span class="project-type">IN THE WORKS</span>
+              <span class="project-arrow">···</span>
+            </div>
+          </div>
+          <a class="back-link" href="#home" data-view="home">← BACK TO BASE</a>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>© 2026 WILLIAM WYLIE</span>
+        <span class="footer-signal">SIGNAL: <b>STRONG</b> <i>▮▮▮▮</i></span>
+        <span>NO COOKIES // NO TRACKING</span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
