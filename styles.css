@@ -102,8 +102,6 @@ a.project-row:hover { padding: 0 17px; background: var(--acid); }
 .private-project-label, .private-project-meta { color: var(--muted); font-size: 9px; letter-spacing: .8px; }
 .private-project-card h3 { margin: 24px 0 13px; font: 700 16px "Space Mono", monospace; }
 .private-project-card p:not(.private-project-label) { margin: 0 0 25px; color: #48463f; font-size: 11px; line-height: 1.7; }
-.mayham-description { padding: 23px 20px 22px; background: var(--paper); }
-.mayham-description p:not(.private-project-label) { max-width: 720px; margin: 19px 0 22px; color: #48463f; font-size: 12px; line-height: 1.8; }
 .back-link { display: inline-block; margin-top: 45px; }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 18px 0 26px; border-top: 1px solid var(--line); color: var(--muted); font-size: 9px; letter-spacing: .5px; }
 .footer-signal b { color: var(--coral); font-weight: 400; }.footer-signal i { color: var(--acid); font-style: normal; text-shadow: 1px 1px var(--ink); }
